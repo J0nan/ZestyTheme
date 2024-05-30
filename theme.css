@@ -68,9 +68,27 @@
   /* inicial: 73 */
 }
 
-.layout-desktop .detailImageContainer .card,
 .layout-desktop .itemTags {
   display: none;
+}
+
+.layout-desktop .detailImageContainer .card {
+  position: absolute !important;
+  top: -16vh;
+  left: 65vw;
+  padding-right: 4vw;
+  width: 20em;
+}
+
+@media (max-width: 68.75em) {
+  .layout-desktop .detailImageContainer .card {
+      display: none;
+  }
+}
+
+.layout-desktop .nameContainer {
+  width: 60vw;
+  padding-right: 5vw;
 }
 
 .detailsGroupItem.writersGroup,
@@ -84,7 +102,8 @@
 }
 
 .layout-desktop .detailPagePrimaryContent {
-  width: 45%;
+  width: 60vw;
+  padding-right: 5vw;
 }
 
 .layout-desktop .detailPagePrimaryContainer {
@@ -2075,7 +2094,6 @@ fieldset {
 	font-size: 110%;
 }
 
-
 #childrenCollapsible .padded-right {
 	padding-right: 38%;
 }
@@ -2457,7 +2475,7 @@ margin-bottom: -5px;
 	display: none;
 }
 
-.detailImageContainer .card .cardBox {
+.layout-mobile .detailImageContainer .card .cardBox {
 	margin: 0;
 	display: none;
 }
