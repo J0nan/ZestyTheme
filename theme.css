@@ -2321,14 +2321,11 @@ fieldset {
 }
 
 .layout-mobile .listItem-content {
-  display: block;
+  display: flex;
 }
 
 /* fixes placement of episodes titles */
 .layout-mobile .listItem-content .listItemBody {
-	left: 110px;
-	position: relative;
-	bottom: 88px;
 	max-width: 64%;
 }
 
