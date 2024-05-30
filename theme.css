@@ -109,10 +109,6 @@
 }
 
 
-.layout-desktop .itemName.originalTitle {
-  display: none;
-}
-
 .layout-desktop .itemName,
 .layout-mobile .itemName {
   font-weight: normal;
@@ -125,12 +121,6 @@
 /* hides trailes tab */
 button.emby-tab-button:nth-child(3) {
   display: none;
-}
-
-/* Hides track selection box */
-
-.trackSelections {
-    display: none;
 }
 
 /* header transparent */
@@ -270,11 +260,6 @@ a.overview-expand.emby-button {
   font-weight: bold;
   font-size: 125% !important;
   margin-top: 0.4em;
-}
-
-/* hide imdb, tmdb trakt links */
-.itemExternalLinks {
-  display: none;
 }
 
 /* Rounded left drawer buttons */
@@ -2136,12 +2121,6 @@ fieldset {
 
 ######################################################################################################################*/
 
-.layout-mobile .headerHomeButton,
-/* .layout-mobile .headerCastButton, */
-.layout-mobile .headerSyncButton {
-  display: none;
-}
-
 .layout-mobile .mainDrawerButton {
   display: block !important;
 }
@@ -2183,9 +2162,6 @@ fieldset {
 /* Seccion Peliculas/Series */
 
 .layout-mobile .itemTags,
-.layout-mobile .itemName.originalTitle,
-.layout-mobile .trackSelections,
-.layout-mobile .itemExternalLinks,
 .layout-mobile .writersGroup,
 .layout-mobile .studiosGroup,
 #seriesAirTime {
