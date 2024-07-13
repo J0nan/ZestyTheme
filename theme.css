@@ -68,9 +68,27 @@
   /* inicial: 73 */
 }
 
-.layout-desktop .detailImageContainer .card,
 .layout-desktop .itemTags {
   display: none;
+}
+
+.layout-desktop .detailImageContainer .card {
+  position: absolute !important;
+  top: -16vh;
+  left: 65vw;
+  padding-right: 4vw;
+  width: 20em;
+}
+
+@media (max-width: 68.75em) {
+  .layout-desktop .detailImageContainer .card {
+      display: none;
+  }
+}
+
+.layout-desktop .nameContainer {
+  width: 60vw;
+  padding-right: 5vw;
 }
 
 .detailsGroupItem.writersGroup,
@@ -84,7 +102,8 @@
 }
 
 .layout-desktop .detailPagePrimaryContent {
-  width: 45%;
+  width: 60vw;
+  padding-right: 5vw;
 }
 
 .layout-desktop .detailPagePrimaryContainer {
@@ -109,10 +128,6 @@
 }
 
 
-.layout-desktop .itemName.originalTitle {
-  display: none;
-}
-
 .layout-desktop .itemName,
 .layout-mobile .itemName {
   font-weight: normal;
@@ -125,12 +140,6 @@
 /* hides trailes tab */
 button.emby-tab-button:nth-child(3) {
   display: none;
-}
-
-/* Hides track selection box */
-
-.trackSelections {
-    display: none;
 }
 
 /* header transparent */
@@ -278,11 +287,6 @@ a.overview-expand.emby-button {
   font-weight: bold;
   font-size: 125% !important;
   margin-top: 0.4em;
-}
-
-/* hide imdb, tmdb trakt links */
-.itemExternalLinks {
-  display: none;
 }
 
 /* Rounded left drawer buttons */
@@ -2110,7 +2114,6 @@ fieldset {
 	font-size: 110%;
 }
 
-
 #childrenCollapsible .padded-right {
 	padding-right: 38%;
 }
@@ -2156,12 +2159,6 @@ fieldset {
 
 ######################################################################################################################*/
 
-.layout-mobile .headerHomeButton,
-/* .layout-mobile .headerCastButton, */
-.layout-mobile .headerSyncButton {
-  display: none;
-}
-
 .layout-mobile .mainDrawerButton {
   display: block !important;
 }
@@ -2203,9 +2200,6 @@ fieldset {
 /* Seccion Peliculas/Series */
 
 .layout-mobile .itemTags,
-.layout-mobile .itemName.originalTitle,
-.layout-mobile .trackSelections,
-.layout-mobile .itemExternalLinks,
 .layout-mobile .writersGroup,
 .layout-mobile .studiosGroup,
 #seriesAirTime {
@@ -2363,14 +2357,11 @@ fieldset {
 }
 
 .layout-mobile .listItem-content {
-  display: block;
+  display: flex;
 }
 
 /* fixes placement of episodes titles */
 .layout-mobile .listItem-content .listItemBody {
-	left: 110px;
-	position: relative;
-	bottom: 88px;
 	max-width: 64%;
 }
 
@@ -2502,7 +2493,7 @@ margin-bottom: -5px;
 	display: none;
 }
 
-.detailImageContainer .card .cardBox {
+.layout-mobile .detailImageContainer .card .cardBox {
 	margin: 0;
 	display: none;
 }
