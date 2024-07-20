@@ -198,9 +198,9 @@ button.emby-tab-button:nth-child(3) {
   display: none;
 }
 
-/* Hide shuffle and replay buttons in media page */
+/* Hide shuffle buttons in media page */
 
-.btnShuffle, .btnReplay {
+.btnShuffle {
   display: none;
 }
 
