@@ -121,8 +121,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/hideExtraPlayerButtons.css');
 ```
 
-<img src="./images/tweaks/hideExtraPlayerButtons/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideExtraPlayerButtons/Modified.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideExtraPlayerButtons/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideExtraPlayerButtons/Modified.png" alt="Modified" width="100%"/>|
 
 #### Hide playbar markers
 
@@ -130,8 +131,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/hidePlaybarMarkers.css');
 ```
 
-<img src="./images/tweaks/hidePlaybarMarkers/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hidePlaybarMarkers/Modified.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hidePlaybarMarkers/Original.png" alt="Original" width="100%"/> |<img src="./images/tweaks/hidePlaybarMarkers/Modified.png" alt="Modified" width="100%"/>|
 
 #### Hide replay button
 
@@ -139,8 +141,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/hideReplayButton.css');
 ```
 
-<img src="./images/tweaks/hideReplayButton/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideReplayButton/Modified.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideReplayButton/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideReplayButton/Modified.png" alt="Modified" width="100%"/>|
 
 ---
 
@@ -152,8 +155,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/desktop/hideExternalLinks.css');
 ```
 
-<img src="./images/tweaks/hideExternalLinks/OriginalDesktop.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideExternalLinks/ModifiedDesktop.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideExternalLinks/OriginalDesktop.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideExternalLinks/ModifiedDesktop.png" alt="Modified" width="100%"/>|
 
 #### Hide original title
 
@@ -161,8 +165,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/desktop/hideOriginalTitle.css');
 ```
 
-<img src="./images/tweaks/hideOriginalTitle/OriginalDesktop.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideOriginalTitle/ModifiedDesktop.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideOriginalTitle/OriginalDesktop.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideOriginalTitle/ModifiedDesktop.png" alt="Modified" width="100%"/>|
 
 #### Hide track selection
 
@@ -170,8 +175,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/desktop/hideTrackSelection.css');
 ```
 
-<img src="./images/tweaks/hideTrackSelection/OriginalDesktop.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideTrackSelection/ModifiedDesktop.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideTrackSelection/OriginalDesktop.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideTrackSelection/ModifiedDesktop.png" alt="Modified" width="100%"/>|
 
 #### Make posters bigger
 
@@ -189,10 +195,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/mobile/addMediaInfoMobile.css');
 ```
 
-<center>
-<img src="./images/tweaks/addMediaInfoMobile/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/addMediaInfoMobile/Modified.png" alt="Modified" width="48%"/>
-</center>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/addMediaInfoMobile/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/addMediaInfoMobile/Modified.png" alt="Modified" width="100%"/>|
 
 #### Hide external links (IMDb, TheMovieDb, trakt, etc.)
 
@@ -200,10 +205,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/mobile/hideExternalLinks.css');
 ```
 
-<center>
-<img src="./images/tweaks/hideExternalLinks/OriginalMobile.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideExternalLinks/ModifiedMobile.png" alt="Modified" width="48%"/>
-</center>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideExternalLinks/OriginalMobile.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideExternalLinks/ModifiedMobile.png" alt="Modified" width="100%"/>|
 
 #### Hide original title
 
@@ -211,10 +215,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/mobile/hideOriginalTitle.css');
 ```
 
-<center>
-<img src="./images/tweaks/hideOriginalTitle/OriginalMobile.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideOriginalTitle/ModifiedMobile.png" alt="Modified" width="48%"/>
-</center>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideOriginalTitle/OriginalMobile.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideOriginalTitle/ModifiedMobile.png" alt="Modified" width="100%"/>|
 
 #### Hide SyncPlay button
 
@@ -222,10 +225,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/mobile/hideSyncMobile.css');
 ```
 
-<center>
-<img src="./images/tweaks/hideSyncMobile/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideSyncMobile/Modified.png" alt="Modified" width="48%"/>
-</center>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideSyncMobile/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideSyncMobile/Modified.png" alt="Modified" width="100%"/>|
 
 #### Hide track selection
 
@@ -233,10 +235,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/mobile/hideTrackSelection.css');
 ```
 
-<center>
-<img src="./images/tweaks/hideTrackSelection/OriginalMobile.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideTrackSelection/ModifiedMobile.png" alt="Modified" width="48%"/>
-</center>
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/hideTrackSelection/OriginalMobile.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideTrackSelection/ModifiedMobile.png" alt="Modified" width="100%"/>
 
 ---
 
