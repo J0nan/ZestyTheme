@@ -493,6 +493,11 @@ a.overview-expand.emby-button {
 	color: rgb(var(--darkest));
 }
 
+/* Changes how a disabled user is shown */
+.disabledUser {
+  filter: brightness(0.4)
+}
+
 
 /* Dashboard Devices > Activity */
 
