@@ -1,0 +1,4 @@
+/* Hides track selection box */
+.layout-desktop .trackSelections{
+    display: none;
+}

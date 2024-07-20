@@ -40,7 +40,6 @@
 
 /*  ###### Desktop Layout ##### */
 
-
 .layout-desktop .detailLogo {
   left: 5%;
   background-position: left;
@@ -76,6 +75,7 @@
   position: absolute !important;
   top: -16vh;
   left: 65vw;
+  /* max-height: 60vh; */
   padding-right: 4vw;
   width: 20em;
 }
@@ -2121,17 +2121,16 @@ fieldset {
 /* Moves TV shows Up Next to bottom right */
 .layout-desktop .nextUpSection {
 	border-radius: 34px;
-	margin-left: 66%;
+	left: calc(70vw - 0.5em);
 	margin-right: -30vw;
-	margin-top: 15.5vh;
+	margin-top: 25vh;
 	margin-bottom: 1vh;
 	padding-left: 2.5em;
-	margin-right: 2.5em;
+	margin-right: 5vw;
 	background-color: rgba(var(--darkest),.8);
 	padding-top: .3em;
 	backdrop-filter: blur(4px);
 	position: absolute;
-	/* margin-left: 1.5vw; */
 }
 
 .cardBox-bottompadded {
@@ -2672,4 +2671,9 @@ margin-bottom: -5px;
   .detailLogo {
       display: inherit;
   }
+}
+
+.layout-mobile [dir=ltr] .mainDetailButtons {
+  padding-left: 0;
+  margin-bottom: 0;
 }

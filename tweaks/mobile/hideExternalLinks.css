@@ -1,5 +1,4 @@
 /* hide imdb, tmdb trakt links */
-.layout-desktop .itemExternalLinks,
 .layout-mobile .itemExternalLinks {
     display: none;
   }
