@@ -1592,16 +1592,6 @@ progress {
   backdrop-filter: blur(9px) !important
 }
 
-/* hides playbar markers */
-.sliderMarker.watched {
-	background-color: transparent;
-}
-
-.sliderMarker.unwatched {
-/*	background-color: rgba(var(--white-off),.35) !important; */
-	background-color: transparent;  /* setting it to transparent bc it keeps flickering, even on the default JF theme */
-}
-
 /* round playbar buffer */
 
 .mdl-slider-background-upper {
