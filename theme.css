@@ -1490,12 +1490,9 @@ progress {
 
 
 /* Hide extra buttons in media player */
-
-
-.btnPreviousChapter, .btnNextChapter, .btnRewind, .btnFastForward, .btnPreviousTrack, .buttons.focuscontainer-x .btnUserRating {
+.btnPreviousTrack, .btnPreviousChapter, .btnNextChapter, .buttons.focuscontainer-x .btnUserRating{
   display: none;
 }
-
 
 /* increase player header and bottom icon sizes */
 
