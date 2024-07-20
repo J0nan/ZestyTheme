@@ -40,7 +40,6 @@
 
 /*  ###### Desktop Layout ##### */
 
-
 .layout-desktop .detailLogo {
   left: 5%;
   background-position: left;
@@ -76,6 +75,7 @@
   position: absolute !important;
   top: -16vh;
   left: 65vw;
+  /* max-height: 60vh; */
   padding-right: 4vw;
   width: 20em;
 }
@@ -198,9 +198,9 @@ button.emby-tab-button:nth-child(3) {
   display: none;
 }
 
-/* Hide shuffle and replay buttons in media page */
+/* Hide shuffle buttons in media page */
 
-.btnShuffle, .btnReplay {
+.btnShuffle {
   display: none;
 }
 
@@ -491,6 +491,11 @@ a.overview-expand.emby-button {
 .css-122sjhb:hover {
 	background-color: rgba(var(--accent), 0.75);
 	color: rgb(var(--darkest));
+}
+
+/* Changes how a disabled user is shown */
+.disabledUser {
+  filter: brightness(0.4)
 }
 
 
@@ -1457,7 +1462,7 @@ progress {
 /* set login wallpaper */
 
 #loginPage {
-  background: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/login-wallpapers/pattern-default.png) !important;  /* previously https://i.imgur.com/NzrSCuv.png   original   https://i.imgur.com/T4zHTDI.jpeg */
+  background: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/login-wallpapers/pattern-default.png) !important;  /* previously https://i.imgur.com/NzrSCuv.png   original   https://i.imgur.com/T4zHTDI.jpeg */
   background-size: cover !important;
 }
 
@@ -1490,12 +1495,9 @@ progress {
 
 
 /* Hide extra buttons in media player */
-
-
-.btnPreviousChapter, .btnNextChapter, .btnRewind, .btnFastForward, .btnPreviousTrack, .buttons.focuscontainer-x .btnUserRating {
+.btnPreviousTrack, .btnPreviousChapter, .btnNextChapter, .buttons.focuscontainer-x .btnUserRating{
   display: none;
 }
-
 
 /* increase player header and bottom icon sizes */
 
@@ -1590,16 +1592,6 @@ progress {
   width:100%;
   border-radius: 12px !important;
   backdrop-filter: blur(9px) !important
-}
-
-/* hides playbar markers */
-.sliderMarker.watched {
-	background-color: transparent;
-}
-
-.sliderMarker.unwatched {
-/*	background-color: rgba(var(--white-off),.35) !important; */
-	background-color: transparent;  /* setting it to transparent bc it keeps flickering, even on the default JF theme */
 }
 
 /* round playbar buffer */
@@ -2062,7 +2054,7 @@ fieldset {
 }
 
 /* replaces Jellyfin logo */
-.adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/images/logo/jellyfin-logo-light.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
+.adminDrawerLogo img { content: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/logo/jellyfin-logo-light.png) !important; } imgLogoIcon { content: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/logo/jellyfin-logo-light.png) !important; } .pageTitleWithLogo { background-image: url(https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/images/logo/jellyfin-logo-light.png) !important; } /* imgur link https://i.imgur.com/wHaGTm4.png */
 
 
 /* Support for Jellyscrub plugin */
@@ -2121,17 +2113,16 @@ fieldset {
 /* Moves TV shows Up Next to bottom right */
 .layout-desktop .nextUpSection {
 	border-radius: 34px;
-	margin-left: 66%;
+	left: calc(70vw - 0.5em);
 	margin-right: -30vw;
-	margin-top: 15.5vh;
+	margin-top: 25vh;
 	margin-bottom: 1vh;
 	padding-left: 2.5em;
-	margin-right: 2.5em;
+	margin-right: 5vw;
 	background-color: rgba(var(--darkest),.8);
 	padding-top: .3em;
 	backdrop-filter: blur(4px);
 	position: absolute;
-	/* margin-left: 1.5vw; */
 }
 
 .cardBox-bottompadded {
@@ -2502,60 +2493,6 @@ margin-bottom: -5px;
 	width: 315px !important;
 }
 
-
-
-/* Makes posters larger in the Library view and Home screen */
-@media (min-width: 31.25em) {
-.layout-desktop  .portraitCard, .layout-desktop .smallBackdropCard, .layout-desktop .squareCard {
-	  width: 33.3333333333%;
-  }
-}
-
-@media (min-width: 43.75em) {
-.layout-desktop  .portraitCard, .layout-desktop .squareCard {
-	  width: 25%;
-  }
-}
-
-@media (min-width: 50em) {
-.layout-desktop  .portraitCard, .layout-desktop .squareCard {
-	  width: 20%;
-  }
-.layout-desktop  .overflowPortraitCard, .layout-desktop .overflowSquareCard {
-	  width: 15vw;
-  }
-}
-
-@media (min-width: 75em) {
-.layout-desktop .portraitCard, .layout-desktop .squareCard {
-	  width: 16.6666666667%;
-  }
-.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
-	  width: 14.4vw;
-  }
-}
-
-@media (min-width: 87.5em) {
-.layout-desktop .portraitCard, .layout-desktop .smallBackdropCard, .layout-desktop .squareCard {
-	  width: 14%;
-  }
-.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
-	  width: 13.3vw;
-  }
-}
-
-@media (min-width: 100em) {
-.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
-	  width: 11.8vw;
-  }
-}
-
-@media (min-width: 120em) {
-.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
-	  width: 11.41vw;
-  }
-}
-
 /* Fixes for Mobile Landscape */
 @media only screen and (orientation: landscape) {
   .layout-mobile .itemBackdrop {
@@ -2672,4 +2609,9 @@ margin-bottom: -5px;
   .detailLogo {
       display: inherit;
   }
+}
+
+.layout-mobile [dir=ltr] .mainDetailButtons {
+  padding-left: 0;
+  margin-bottom: 0;
 }

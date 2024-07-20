@@ -1,0 +1,51 @@
+/* Makes posters larger in the Library view and Home screen */
+@media (min-width: 31.25em) {
+.layout-desktop  .portraitCard, .layout-desktop .smallBackdropCard, .layout-desktop .squareCard {
+	  width: 33.3333333333%;
+  }
+}
+
+@media (min-width: 43.75em) {
+.layout-desktop  .portraitCard, .layout-desktop .squareCard {
+	  width: 25%;
+  }
+}
+
+@media (min-width: 50em) {
+.layout-desktop  .portraitCard, .layout-desktop .squareCard {
+	  width: 20%;
+  }
+.layout-desktop  .overflowPortraitCard, .layout-desktop .overflowSquareCard {
+	  width: 15vw;
+  }
+}
+
+@media (min-width: 75em) {
+.layout-desktop .portraitCard, .layout-desktop .squareCard {
+	  width: 16.6666666667%;
+  }
+.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
+	  width: 14.4vw;
+  }
+}
+
+@media (min-width: 87.5em) {
+.layout-desktop .portraitCard, .layout-desktop .smallBackdropCard, .layout-desktop .squareCard {
+	  width: 14%;
+  }
+.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
+	  width: 13.3vw;
+  }
+}
+
+@media (min-width: 100em) {
+.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
+	  width: 11.8vw;
+  }
+}
+
+@media (min-width: 120em) {
+.layout-desktop .overflowPortraitCard, .layout-desktop .overflowSquareCard {
+	  width: 11.41vw;
+  }
+}

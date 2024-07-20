@@ -1,0 +1,8 @@
+/* hides playbar markers */
+.sliderMarker.watched {
+	background-color: transparent;
+}
+
+.sliderMarker.unwatched {
+	background-color: transparent;
+}

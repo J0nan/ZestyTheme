@@ -28,7 +28,7 @@ Inspired by the [Zorin OS](https://zorin.com/os/) [color schemes](https://github
 
 To add the theme to Jellyfin, copy the following line to Dashboard > General > Custom CSS:
 
-`@import url('https://cdn.jsdelivr.net/gh/stpnwf/ZestyTheme@latest/theme.css');`
+`@import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/theme.css');`
 
 **If** you didn't like any of the presets and would like to have custom colors, replace the R, G, B values and paste it **underneath** the theme's `@import...` line:
 
