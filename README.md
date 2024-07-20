@@ -111,8 +111,9 @@ There are a few of tweaks you can add, any of the following are optional:
 @import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/hideEndTimePlayer.css');
 ```
 
-<img src="./images/tweaks/hideEndTimePlayer/Original.png" alt="Original" width="48%"/>
-<img src="./images/tweaks/hideEndTimePlayer/Modified.png" alt="Modified" width="48%"/>
+| Original  | Modified |
+| ------------- | ------------- |
+| <img src="./images/tweaks/hideEndTimePlayer/Original.png" alt="Original" width="100%"/>  | <img src="./images/tweaks/hideEndTimePlayer/Modified.png" alt="Modified" width="100%"/>  |
 
 #### Hide buttons in player
 
