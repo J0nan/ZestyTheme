@@ -1,4 +1,0 @@
-/* hide imdb, tmdb trakt links */
-.layout-desktop .itemExternalLinks{
-    display: none;
-  }

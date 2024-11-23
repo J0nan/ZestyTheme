@@ -1,0 +1,4 @@
+/* show imdb, tmdb trakt links */
+.layout-desktop .itemExternalLinks{
+    display: block;
+  }

@@ -1,0 +1,5 @@
+.layout-mobile .headerHomeButton,
+/* .layout-mobile .headerCastButton, */
+.layout-mobile .headerSyncButton {
+  display: block;
+}

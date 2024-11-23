@@ -1,4 +1,0 @@
-/* Hide extra buttons in media player */
-.btnRewind, .btnFastForward {
-    display: none;
-}

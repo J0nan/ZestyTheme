@@ -1,0 +1,38 @@
+.detailImageContainer .card .cardBox {
+    /* margin: 0; */
+    display: block !important;
+}
+
+
+.layout-desktop .detailImageContainer .card {
+    display: block !important;
+    position: absolute !important;
+    top: 13vh !important;
+    /* bottom: 5vh; */
+    left: 65vw !important;
+    /* max-height: 60vh; */
+    padding-right: 4vw !important;
+    width: 20em !important;
+    z-index: 3 !important;
+    /* padding-top: 5vh; */
+  }
+
+  /* .layout-desktop .detailImageContainer .card .coveredImage,
+  .layout-desktop .detailImageContainer .card .lazy-hidden,
+  .layout-desktop .detailImageContainer .card .cardPadder {
+    top: 5vh;
+  } */
+  
+  @media (max-width: 68.75em) {
+    .layout-desktop .detailImageContainer .card {
+        display: none;
+    }
+  }
+
+/* Moves TV shows Up Next to bottom right */
+.layout-desktop .nextUpSection {
+	margin-top: 32vh;
+    /* right: calc(10em - 3.25em);
+    left: unset; */
+    /* left: calc(65vw + 2.62em); */
+}

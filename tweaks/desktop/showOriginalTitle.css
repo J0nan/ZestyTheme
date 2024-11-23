@@ -1,0 +1,4 @@
+/* Show original title */
+.layout-desktop .itemName.originalTitle{
+    display: block;
+  }

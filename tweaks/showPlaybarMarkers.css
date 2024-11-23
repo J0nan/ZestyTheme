@@ -1,0 +1,8 @@
+/* Shows playbar markers */
+.sliderMarker.watched {
+	background-color: rgba(var(--accent)) !important;
+}
+
+.sliderMarker.unwatched {
+	background-color: hsla(0,0%,100%,.3) !important;
+}
