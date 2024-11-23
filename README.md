@@ -1,4 +1,6 @@
-# ZestyTheme <!-- omit in toc -->
+# ⚠⚠⚠⚠ Outdated Readme, update in progress ⚠⚠⚠⚠
+
+## ZestyTheme <!-- omit in toc -->
 
 A fork with some tweaks and personal customizations.
 
@@ -14,26 +16,27 @@ Notes:
 
 ## Table of content <!-- omit in toc -->
 
-- [Screenshots](#screenshots)
-- [Installing](#installing)
-- [Color Scheme](#color-scheme)
-- [Tweaks](#tweaks)
-  - [General](#general)
-    - [Hide end time in player](#hide-end-time-in-player)
-    - [Hide buttons in player](#hide-buttons-in-player)
-    - [Hide playbar markers](#hide-playbar-markers)
-    - [Hide replay button](#hide-replay-button)
-  - [Desktop](#desktop)
-    - [Hide external links (IMDb, TheMovieDb, trakt, etc.)](#hide-external-links-imdb-themoviedb-trakt-etc)
-    - [Hide original title](#hide-original-title)
-    - [Hide track selection](#hide-track-selection)
-    - [Make posters bigger](#make-posters-bigger)
-  - [Mobile](#mobile)
-    - [Add media info to episodes](#add-media-info-to-episodes)
-    - [Hide external links (IMDb, TheMovieDb, trakt, etc.)](#hide-external-links-imdb-themoviedb-trakt-etc-1)
-    - [Hide original title](#hide-original-title-1)
-    - [Hide SyncPlay button](#hide-syncplay-button)
-    - [Hide track selection](#hide-track-selection-1)
+- [⚠⚠⚠⚠ Outdated Readme, update in progress ⚠⚠⚠⚠](#-outdated-readme-update-in-progress-)
+  - [Screenshots](#screenshots)
+  - [Installing](#installing)
+  - [Color Scheme](#color-scheme)
+  - [Tweaks](#tweaks)
+    - [General](#general)
+      - [Hide end time in player](#hide-end-time-in-player)
+      - [Hide buttons in player](#hide-buttons-in-player)
+      - [Hide playbar markers](#hide-playbar-markers)
+      - [Hide replay button](#hide-replay-button)
+    - [Desktop](#desktop)
+      - [Hide external links (IMDb, TheMovieDb, trakt, etc.)](#hide-external-links-imdb-themoviedb-trakt-etc)
+      - [Hide original title](#hide-original-title)
+      - [Hide track selection](#hide-track-selection)
+      - [Make posters bigger](#make-posters-bigger)
+    - [Mobile](#mobile)
+      - [Add media info to episodes](#add-media-info-to-episodes)
+      - [Hide external links (IMDb, TheMovieDb, trakt, etc.)](#hide-external-links-imdb-themoviedb-trakt-etc-1)
+      - [Hide original title](#hide-original-title-1)
+      - [Hide SyncPlay button](#hide-syncplay-button)
+      - [Hide track selection](#hide-track-selection-1)
 
 ---
 
