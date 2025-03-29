@@ -1,4 +1,0 @@
-/* show Rewind and Fast Forward buttons in media player */
-.btnRewind, .btnFastForward {
-    display: inline-flex !important;
-}

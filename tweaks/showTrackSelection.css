@@ -1,8 +1,0 @@
-/* Show track selection box */
-.trackSelections > *:nth-child(n+3) {
-    visibility: visible; 
-}
-
-.selectAudioContainer, .selectSubtitlesContainer{
-    position: relative !important;
-}

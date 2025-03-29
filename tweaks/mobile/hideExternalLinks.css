@@ -1,0 +1,4 @@
+/* hide imdb, tmdb trakt links */
+.layout-mobile .itemExternalLinks {
+    display: none;
+  }

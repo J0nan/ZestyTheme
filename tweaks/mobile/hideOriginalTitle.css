@@ -1,0 +1,4 @@
+/* Hide original title */
+.layout-mobile .itemName.originalTitle{
+    display: none;
+  }
