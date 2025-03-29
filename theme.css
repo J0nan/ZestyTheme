@@ -2517,7 +2517,7 @@ margin-bottom: -5px;
 /* Fixes for Mobile Landscape */
 @media only screen and (orientation: landscape) {
   .layout-mobile .itemBackdrop {
-      height: 57vw;
+      height: 80vh;
   }
   /* prevents content from being out of view when there is no itemBackdrop (e.g in Actor pages) */
   .layout-mobile .itemBackdrop:not([style*="background-image"]) {
@@ -2542,7 +2542,7 @@ margin-bottom: -5px;
       display: block;
       width: 23em;
       left: 2%;
-      top: 61vh;
+      top: 59vh;
       height: 38vh;
   }
   
@@ -2562,7 +2562,7 @@ margin-bottom: -5px;
       display: block;
       width: 36em;
       left: 2%;
-      top: 32vw;
+      top: 30vw;
       height: 38vh;
   }
   .layout-mobile [dir="ltr"] .infoWrapper {
@@ -2582,13 +2582,14 @@ margin-bottom: -5px;
   .layout-mobile .itemName.parentNameLast {
       margin: 0 0 .4em;
   }
+}
 
 @media (min-width: 45em) and (orientation: portrait) { 
   .layout-mobile .detailLogo {
       display: block;
       width: 27em;
       left: 2%;
-      top: 44vw;
+      top: 42vw;
       height: 13vw;
   }
     .layout-mobile [dir="ltr"] .infoWrapper {
@@ -2612,7 +2613,7 @@ margin-bottom: -5px;
     display: block;
     width: 28em;
     left: 1.5%;
-    top: 44vw;
+    top: 42vw;
     height: 13vw;
   }
   .layout-mobile .detailPagePrimaryContainer {
