@@ -1628,6 +1628,17 @@ progress {
 	border-bottom-right-radius: var(--rounding-large) !important;
 }
 
+/* prevents mainDrawer shadow from showing up */
+div.mainDrawer.transition.touch-menu-la {
+  width: 320px !important;
+  left: -340px !important;
+}
+div.mainDrawer.transition.touch-menu-la.drawer-open {
+  width: 320px !important;
+  left: -340px !important;
+  transform: translateX(340px) !important;
+}
+
 .toast {
   backdrop-filter: blur(21px);
 	background-color: rgba(var(--accent-off), 0.75) !important;
@@ -2256,13 +2267,23 @@ fieldset {
 }
 
 /* arregalndo padding y margin y aumentando tamano de fanart y agregando degradado */
-.layout-mobile .itemBackdrop {
+/* .layout-mobile .itemBackdrop {
   background-size: contain;
   height: 61.5vw;
+} */
+
+.layout-mobile .itemBackdrop {
+  position: relative;
+  background-size: cover;
+  height: 40vh;
+  margin-top: 0;
+  -webkit-mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+  mask-image: linear-gradient(to top, rgba(var(--dark-apparent),0) 2%, rgba(var(--dark-apparent),0.08) 11%, rgba(var(--dark-apparent),0.25) 20%, rgba(var(--dark-apparent),0.45) 28%, rgba(var(--dark-apparent),0.6) 33%, rgba(var(--dark-apparent),1) 48%);
+  background-position: 70%;
 }
 
 /* overlay on top of backdrop in mobile layout */
-.layout-mobile .itemBackdrop::before {
+/* .layout-mobile .itemBackdrop::before {
   content: '';
   right: 0;
   left: 0;
@@ -2271,14 +2292,14 @@ fieldset {
   position: absolute;
   z-index: -1;
   background-image:linear-gradient(to top, rgba(var(--dark-apparent),1) 9.5%, rgba(var(--dark-apparent),0.6) 12%, rgba(var(--dark-apparent),0) 14%), linear-gradient(to bottom, rgba(var(--dark-apparent),1) 1%, rgba(var(--dark-apparent),0) 7%);
-}
+} */
 
-.layout-mobile .itemBackdrop {
+/* .layout-mobile .itemBackdrop {
 	background-size: contain;
 	margin-top: calc(45px + 0.2em);
 	z-index: -1;
 	content: '';
-}
+} */
 
 .layout-mobile .detailPageWrapperContainer {
   top: -5em;
@@ -2390,7 +2411,7 @@ fieldset {
 
 .layout-mobile .detailPagePrimaryContainer {
 	display: block;
-  padding: 1.5rem 1.15rem 1rem;
+  padding: 0rem 1.15rem 1rem;
 	position: relative;
 }
 
@@ -2476,7 +2497,7 @@ margin-bottom: -5px;
 
 .layout-mobile [dir="ltr"] .infoWrapper {
   padding-left: 0% !important;
-  padding-top: 5% !important;
+  padding-top: 0% !important;
 }
 
 .layout-mobile .detailImageContainer .card, .layout-mobile .detailImageContainer .card.backdropCard, .layout-mobile .detailImageContainer .card.squareCard {
@@ -2496,7 +2517,7 @@ margin-bottom: -5px;
 /* Fixes for Mobile Landscape */
 @media only screen and (orientation: landscape) {
   .layout-mobile .itemBackdrop {
-      height: 57vw;
+      height: 80vh;
   }
   /* prevents content from being out of view when there is no itemBackdrop (e.g in Actor pages) */
   .layout-mobile .itemBackdrop:not([style*="background-image"]) {
@@ -2521,7 +2542,7 @@ margin-bottom: -5px;
       display: block;
       width: 23em;
       left: 2%;
-      top: 61vh;
+      top: 59vh;
       height: 38vh;
   }
   
@@ -2541,7 +2562,7 @@ margin-bottom: -5px;
       display: block;
       width: 36em;
       left: 2%;
-      top: 32vw;
+      top: 30vw;
       height: 38vh;
   }
   .layout-mobile [dir="ltr"] .infoWrapper {
@@ -2561,13 +2582,14 @@ margin-bottom: -5px;
   .layout-mobile .itemName.parentNameLast {
       margin: 0 0 .4em;
   }
+}
 
 @media (min-width: 45em) and (orientation: portrait) { 
   .layout-mobile .detailLogo {
       display: block;
       width: 27em;
       left: 2%;
-      top: 44vw;
+      top: 42vw;
       height: 13vw;
   }
     .layout-mobile [dir="ltr"] .infoWrapper {
@@ -2591,7 +2613,7 @@ margin-bottom: -5px;
     display: block;
     width: 28em;
     left: 1.5%;
-    top: 44vw;
+    top: 42vw;
     height: 13vw;
   }
   .layout-mobile .detailPagePrimaryContainer {
