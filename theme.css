@@ -475,10 +475,6 @@ a.overview-expand.emby-button {
 	backdrop-filter: blur(7px);
 }
 
-.css-1ilo2kq .css-37qkju {
-/*	color: rgb(var(--accent)); */
-}
-
 .css-r8u8y9 {
 	margin: 16px;
 	padding: 0px;
@@ -978,10 +974,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   right: 0;
   top: 0;
 }
-.innerCardFooter {
-/*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
-/*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
-}
+
 .countIndicator, .playedIndicator {
   border-radius: 0px var(--rounding) !important;
   box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
@@ -1326,14 +1319,6 @@ progress {
   #itemDetailPage .itemProgressBar,
   #dashboardPage .backgroundProgress > div {
     backdrop-filter: blur(4px);
-  }
-  @media all and (max-width: 70em){
-    .cardOverlayButtonIcon {
-     /* background-color: rgba(var(--darkest), 0.35) !important; */
-    }
-    .cardOverlayButtonIcon {
-    /* backdrop-filter: blur(4px); */
-    }
   }
   .indicator {
     backdrop-filter: blur(2px);
@@ -2240,7 +2225,11 @@ fieldset {
 
 /* Sipnosis tamano de 5 lineas */
 .detail-clamp-text {
-  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
 }
 
 
