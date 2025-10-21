@@ -104,6 +104,7 @@
 .layout-desktop .detailPagePrimaryContent {
   width: 60vw;
   padding-right: 5vw;
+  padding-left: 0;
 }
 
 .layout-desktop .detailPagePrimaryContainer {
@@ -273,7 +274,7 @@ a.overview-expand.emby-button {
 /* Add padding to description*/
 .layout-desktop .detailSectionContent {
  /*   margin-top: 1.25vw !important; */
-    padding: 0vw 0vw 0.25vw 1vw !important;
+    padding: 0vw 0vw 0.25vw 0vw !important;
 }
 
 /* makes description and tagline bold */
@@ -767,7 +768,7 @@ progress::-webkit-progress-value {
 }
 
 
-./* increases size and changes color of check boxes */
+/* increases size and changes color of check boxes */
 
 .checkboxOutline {
   border: 0.25em solid;
@@ -1021,6 +1022,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 /*Colors for Title ribbon */
 .layout-desktop .detailRibbon {
     background: rgba(0, 0, 0, 0);
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+    display: contents;
 }
 /* Item backdrop overlay color */
 .itemBackdrop::after {
@@ -2124,9 +2128,9 @@ fieldset {
 /* Moves TV shows Up Next to bottom right */
 .layout-desktop .nextUpSection {
 	border-radius: 34px;
-	left: calc(70vw - 0.5em);
+	left: calc(65vw - 1.25vw);
 	margin-right: -30vw;
-	margin-top: 25vh;
+	/* margin-top: -5vh; */
 	margin-bottom: 1vh;
 	padding-left: 2.5em;
 	margin-right: 5vw;
