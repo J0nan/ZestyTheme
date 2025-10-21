@@ -1920,7 +1920,7 @@ fieldset {
 
 /* Centers labels for track selection */
 .trackSelections .selectContainer .selectLabel {
-	padding: 0.2em 0 0 0;
+	padding: calc(0.8em - 4.5px) 0 0 0;
 }
 
 
