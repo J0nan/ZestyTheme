@@ -132,6 +132,7 @@
 .layout-desktop .itemName,
 .layout-mobile .itemName {
   font-weight: normal;
+  white-space: normal;
 }
 
 .infoWrapper {
