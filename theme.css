@@ -104,6 +104,7 @@
 .layout-desktop .detailPagePrimaryContent {
   width: 60vw;
   padding-right: 5vw;
+  padding-left: 0;
 }
 
 .layout-desktop .detailPagePrimaryContainer {
@@ -131,6 +132,7 @@
 .layout-desktop .itemName,
 .layout-mobile .itemName {
   font-weight: normal;
+  white-space: normal;
 }
 
 .infoWrapper {
@@ -273,7 +275,7 @@ a.overview-expand.emby-button {
 /* Add padding to description*/
 .layout-desktop .detailSectionContent {
  /*   margin-top: 1.25vw !important; */
-    padding: 0vw 0vw 0.25vw 1vw !important;
+    padding: 0vw 0vw 0.25vw 0vw !important;
 }
 
 /* makes description and tagline bold */
@@ -472,10 +474,6 @@ a.overview-expand.emby-button {
 	color: rgb(var(--accent));
 	background-color: rgba(var(--darkest),.9);
 	backdrop-filter: blur(7px);
-}
-
-.css-1ilo2kq .css-37qkju {
-/*	color: rgb(var(--accent)); */
 }
 
 .css-r8u8y9 {
@@ -767,7 +765,7 @@ progress::-webkit-progress-value {
 }
 
 
-./* increases size and changes color of check boxes */
+/* increases size and changes color of check boxes */
 
 .checkboxOutline {
   border: 0.25em solid;
@@ -977,10 +975,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   right: 0;
   top: 0;
 }
-.innerCardFooter {
-/*  border-radius: 0px var(--rounding) !important; */  /* conflicts with my edits of the progress bar */
-/*  box-shadow: 1px 0px 5px 2px rgba(var(--dark),0.5);  */
-}
+
 .countIndicator, .playedIndicator {
   border-radius: 0px var(--rounding) !important;
   box-shadow: -1px 1px 5px 1px rgba(var(--darkest),.5);
@@ -1021,6 +1016,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 /*Colors for Title ribbon */
 .layout-desktop .detailRibbon {
     background: rgba(0, 0, 0, 0);
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+    display: contents;
 }
 /* Item backdrop overlay color */
 .itemBackdrop::after {
@@ -1322,14 +1320,6 @@ progress {
   #itemDetailPage .itemProgressBar,
   #dashboardPage .backgroundProgress > div {
     backdrop-filter: blur(4px);
-  }
-  @media all and (max-width: 70em){
-    .cardOverlayButtonIcon {
-     /* background-color: rgba(var(--darkest), 0.35) !important; */
-    }
-    .cardOverlayButtonIcon {
-    /* backdrop-filter: blur(4px); */
-    }
   }
   .indicator {
     backdrop-filter: blur(2px);
@@ -1929,8 +1919,10 @@ fieldset {
 	margin-top: 4px;
 }
 
-
-
+/* Centers labels for track selection */
+.trackSelections .selectContainer .selectLabel {
+	padding: calc(0.8em - 4.5px) 0 0 0;
+}
 
 
 
@@ -2124,9 +2116,9 @@ fieldset {
 /* Moves TV shows Up Next to bottom right */
 .layout-desktop .nextUpSection {
 	border-radius: 34px;
-	left: calc(70vw - 0.5em);
+	left: calc(65vw - 1.25vw);
 	margin-right: -30vw;
-	margin-top: 25vh;
+	/* margin-top: -5vh; */
 	margin-bottom: 1vh;
 	padding-left: 2.5em;
 	margin-right: 5vw;
@@ -2236,7 +2228,11 @@ fieldset {
 
 /* Sipnosis tamano de 5 lineas */
 .detail-clamp-text {
-  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-clamp: 5;
+  -webkit-line-clamp: 5;
 }
 
 
