@@ -8,7 +8,7 @@ Compatible with 10.9.x!
 
 Notes:
 
- You must enable Backdrops on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/gaam24/JellyTweaks), to force it on every device (use under your own discretion).
+ You must enable Backdrops on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/n00bcodr/JellyfinTweaks), to force it on every device (use under your own discretion).
 
  Theme is still **WIP**, and may look broken in some areas.
 
