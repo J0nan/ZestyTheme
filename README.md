@@ -8,7 +8,7 @@ Compatible with 10.9.x!
 
 Notes:
 
- You must enable Backdrops on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/gaam24/JellyTweaks), to force it on every device (use under your own discretion).
+ You must enable Backdrops on *every* device you plan to use this on. For this I use [JellyTweaks](https://github.com/n00bcodr/JellyfinTweaks), to force it on every device (use under your own discretion).
 
  Theme is still **WIP**, and may look broken in some areas.
 
@@ -23,6 +23,7 @@ Notes:
     - [Hide buttons in player](#hide-buttons-in-player)
     - [Hide playbar markers](#hide-playbar-markers)
     - [Hide replay button](#hide-replay-button)
+    - [Add blur effect to header](#add-blur-effect-to-header)
   - [Desktop](#desktop)
     - [Hide external links (IMDb, TheMovieDb, trakt, etc.)](#hide-external-links-imdb-themoviedb-trakt-etc)
     - [Hide original title](#hide-original-title)
@@ -144,6 +145,16 @@ There are a few of tweaks you can add, any of the following are optional:
 | Original  | Modified |
 | ------------- | ------------- |
 |<img src="./images/tweaks/hideReplayButton/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/hideReplayButton/Modified.png" alt="Modified" width="100%"/>|
+
+#### Add blur effect to header
+
+```css
+@import url('https://cdn.jsdelivr.net/gh/J0nan/ZestyTheme@main/tweaks/transparentBlurHeader.css');
+```
+
+| Original  | Modified |
+| ------------- | ------------- |
+|<img src="./images/tweaks/transparentBlurHeader/Original.png" alt="Original" width="100%"/>|<img src="./images/tweaks/transparentBlurHeader/Modified.png" alt="Modified" width="100%"/>|
 
 ---
 
