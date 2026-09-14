@@ -1,0 +1,18 @@
+@keyframes header-glass {
+  from {
+    background: transparent;
+    backdrop-filter: blur(0px);
+  }
+  to {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(30px);
+  }
+}
+
+@supports (animation-timeline: scroll()) {
+  header {
+    animation: header-glass linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 100px;
+  }
+}
